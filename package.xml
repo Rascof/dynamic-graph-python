@@ -20,8 +20,12 @@
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>dynamic-graph</build_export_depend>
 
-  <buildtool_depend>catkin</buildtool_depend>
-
   <doc_depend>doxygen</doc_depend>
+  
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
 
 </package>
